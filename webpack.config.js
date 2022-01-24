@@ -13,6 +13,10 @@ module.exports = {
         // 체인은 역순으로 실행된다.
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      }
     ],
   },
 }
