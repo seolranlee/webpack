@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
+    "server": "node server.js",
     "build": "webpack"
   },
   "repository": {
@@ -20,9 +21,11 @@
   },
   "homepage": "https://github.com/seolranlee/webpack-code-splitting#readme",
   "devDependencies": {
+    "express": "^4.17.2",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.67.0",
     "webpack-cli": "^4.9.1",
+    "webpack-dev-middleware": "^5.3.0",
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
