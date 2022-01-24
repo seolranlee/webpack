@@ -6,7 +6,7 @@ function component() {
   const element = document.createElement('div');
 
   // 이제 Lodash를 스크립트로 가져온다.
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.innerHTML = _.join(['Hello', 'webpack', '()=>{}'], ' ');
   element.classList.add('hello');
 
   // 원래 있던 div에 이미지를 추가한다.
